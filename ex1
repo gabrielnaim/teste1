@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+    float num; float soma;
+    printf("Escolha um número: ");
+    scanf("%f" , &num);
+    while (num > 0){
+        soma = soma + num;
+        num = (num - 1);
+    }
+    printf("somou %.2f", soma);
+}    
